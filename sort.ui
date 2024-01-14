@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>787</width>
+    <height>626</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sort</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>260</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>SelectionSort</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>260</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>InsectionSort</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>260</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>QuickSort</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>260</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>MergeSort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="m1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>310</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mã nhân viên</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="h1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>350</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Họ và tên</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="n1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>390</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ngày sinh</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="c1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>440</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chức vụ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="l1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>490</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lương</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="m2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>310</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mã nhân viên</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="m3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>310</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mã nhân viên</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="m4">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>310</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mã nhân viên</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="h2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>350</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Họ và tên</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="h3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>350</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Họ và tên</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="h4">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>350</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Họ và tên</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="c4">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>440</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chức vụ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="c2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>440</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chức vụ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="c3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>440</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chức vụ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="l4">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>490</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lương</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="l2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>490</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lương</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="l3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>490</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lương</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="n2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>390</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ngày sinh</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="n3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>390</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ngày sinh</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="n4">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>390</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ngày sinh</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="thoat">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>540</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Thoát</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>681</width>
+      <height>221</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>787</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
